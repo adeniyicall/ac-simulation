@@ -1,0 +1,13 @@
+{
+    decl winInstP, dsnPtr;
+    de_load_design ("KESI_ACV_ANALYSIS", 0);
+    winInstP = de_create_window(SCHEMATIC_WINDOW, NULL, -8, -8, 1366, 706);
+    dsnPtr = de_load_design("KESI_ACV_ANALYSIS", 0);
+    if (dsnPtr != NULL && winInstP != NULL)
+    {
+        deutil_file_open_update_window(winInstP, dsnPtr, "KESI_ACV_ANALYSIS");
+    }
+    api_set_working_cursor();
+    de_open_datadisplay("KESI_ACV_ANALYSIS.dds", TRUE);
+    api_set_normal_cursor();
+}

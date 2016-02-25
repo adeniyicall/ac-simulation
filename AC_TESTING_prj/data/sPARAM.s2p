@@ -1,0 +1,8 @@
+! Created Thu Feb 25 18:03:54 2016
+# mhz S ma R 50
+! 2 Port Network Data from SP1.SP block
+! freq  magS11  angS11  magS21  angS21  magS12  angS12  magS22  angS22  
+!     
+               800       0.858050898        -26.7596707         3.03718896         167.661221    9.03210297e-011        -12.3387785        0.998344657    1.86085198e-009
+! Noise params
+800        1.29116595        0.363273129         34.3039712        0.297530151

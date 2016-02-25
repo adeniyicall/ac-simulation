@@ -1,0 +1,180 @@
+1     7.704    0 0
+10    1    "untitled2"    2    1456400995    0    11    341    0
+20    0    ""    -1500 -3541 7284 2151 1    2 -3 1    1456400995    0    "mm_schematic.prf" "schematic.lay"
+30    45638730    1    ""    1    2    0    45638774    44175920    45817026    0    3000 625 180000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    45638774    1    ""    2    1    0    45638818    44175920    45817040    0    4000 625 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    45638818    1    ""    3    2    0    0    44175920    45817054    0    3500 125 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+41    44227734    0    1073741824    "Meas1"    "MeasEqn"    "MEAS_Generic"    4081 -2227 5214 -1644 1    0 "" 0
+    0    0    11    4250 -1750 90000 1 1 0 0    0    96    0    0    1456400995    17  ""    4081 -1859 4406 -1644 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    239 -61 964 106 1    0    0    0    0    0    0    0    0
+62    0    167    9    239 -61 0    1    1    0    0    12    0   "Arial For CAE"   `MeasEqn`
+40    7    0    0    0
+50    6    239 -269 755 -102 1    0    0    0    0    0    0    0    0
+62    0    167    9    239 -269 0    1    2    0    0    12    0   "Arial For CAE"   `Meas1`
+40    8    0    0    0
+50    6    239 -477 950 -310 1    0    0    0    0    0    0    0    0
+62    0    167    9    239 -477 0    1    3    0    1    12    0   "Arial For CAE"   `Meas1=1`
+80    3    "Meas"    "list"    0    1    ""    0   0
+80    5    "Meas"    "SingleTextLine"    0    0    "Meas1=1"    0   0
+41    44227524    0    1073741824    "L_StabCircle1"    "L_StabCircle"    "SYM_L_StabCircle"    1750 -3541 4581 -2225 1    0 "" 0
+    0    0    10    1750 -2875 0 1 1 0 0    1    96    0    0    1456400967    17  ""    1750 -2875 2478 -2225 1    1959 -3541 4581 -2958 1    0 0 0 0 0 0
+40    6    0    0    0
+50    6    209 -250 1199 -83 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -250 0    1    1    0    0    12    0   "Arial For CAE"   `L_StabCircle`
+40    7    0    0    0
+50    6    209 -458 1297 -291 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -458 0    1    2    0    0    12    0   "Arial For CAE"   `L_StabCircle1`
+40    8    0    0    0
+50    6    209 -666 2831 -499 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -666 0    1    3    0    1    12    0   "Arial For CAE"   `L_StabCircle1=l_stab_circle(S,51)`
+80    3    "Function"    "list"    0    1    ""    0   0
+80    5    "Function"    "SingleTextLine"    0    0    "L_StabCircle1=l_stab_circle(S,51)"    0   0
+41    44227804    0    1073741824    "S_StabCircle1"    "S_StabCircle"    "SYM_S_StabCircle"    -1375 -3416 1526 -2100 1    0 "" 0
+    0    0    9    -1375 -2750 0 1 1 0 0    0    96    0    0    1456400960    17  ""    -1375 -2750 -647 -2100 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    209 -250 1213 -83 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -250 0    1    1    0    0    12    0   "Arial For CAE"   `S_StabCircle`
+40    7    0    0    0
+50    6    209 -458 1311 -291 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -458 0    1    2    0    0    12    0   "Arial For CAE"   `S_StabCircle1`
+40    8    0    0    0
+50    6    209 -666 2901 -499 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -666 0    1    3    0    1    12    0   "Arial For CAE"   `S_StabCircle1=s_stab_circle(S,51)`
+80    3    "Function"    "list"    0    1    ""    0   0
+80    5    "Function"    "SingleTextLine"    0    0    "S_StabCircle1=s_stab_circle(S,51)"    0   0
+41    44227594    0    1073741824    "StabFact1"    "StabFact"    "SYM_StabFact"    750 -1666 2744 -350 1    0 "" 0
+    0    0    8    750 -1000 0 1 1 0 0    0    96    0    0    1456400925    17  ""    750 -1000 1478 -350 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    209 -250 878 -83 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -250 0    1    1    0    0    12    0   "Arial For CAE"   `StabFact`
+40    7    0    0    0
+50    6    209 -458 976 -291 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -458 0    1    2    0    0    12    0   "Arial For CAE"   `StabFact1`
+40    8    0    0    0
+50    6    209 -666 1994 -499 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -666 0    1    3    0    1    12    0   "Arial For CAE"   `StabFact1=stab_fact(S)`
+80    3    "Function"    "list"    0    1    ""    0   0
+80    5    "Function"    "SingleTextLine"    0    0    "StabFact1=stab_fact(S)"    0   0
+41    44227664    0    1073741824    "VSWR1"    "VSWR"    "SYM_VSWR"    5625 834 7284 2151 1    0 "" 0
+    0    0    7    5625 1500 0 1 1 0 0    0    96    0    0    1456400905    17  ""    5625 1500 6353 2151 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    209 -250 697 -83 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -250 0    1    1    0    0    12    0   "Arial For CAE"   `VSWR`
+40    7    0    0    0
+50    6    209 -458 795 -291 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -458 0    1    2    0    0    12    0   "Arial For CAE"   `VSWR1`
+40    8    0    0    0
+50    6    209 -666 1659 -499 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -666 0    1    3    0    1    12    0   "Arial For CAE"   `VSWR1=vswr(S11)`
+80    3    "Function"    "list"    0    1    ""    0   0
+80    5    "Function"    "SingleTextLine"    0    0    "VSWR1=vswr(S11)"    0   0
+41    44176130    0    1073741824    "MaxGain1"    "MaxGain"    "SYM_MaxGain"    -1500 -1791 536 -474 1    0 "" 0
+    0    0    6    -1500 -1125 0 1 1 0 0    0    96    0    0    1456400889    17  ""    -1500 -1125 -772 -474 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    209 -250 865 -83 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -250 0    1    1    0    0    12    0   "Arial For CAE"   `MaxGain`
+40    7    0    0    0
+50    6    209 -458 962 -291 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -458 0    1    2    0    0    12    0   "Arial For CAE"   `MaxGain1`
+40    8    0    0    0
+50    6    209 -666 2036 -499 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -666 0    1    3    0    1    12    0   "Arial For CAE"   `MaxGain1=max_gain(S)`
+80    3    "Function"    "list"    0    1    ""    0   0
+80    5    "Function"    "SingleTextLine"    0    0    "MaxGain1=max_gain(S)"    0   0
+41    44176060    0    0    "SP1"    "S_Param"    "SYM_SP"    -1250 200 1324 1750 1    0 "" 0
+    0    0    5    -1250 1750 0 1 1 0 0    0    96    0    0    1456400880    17  ""    -1250 1282 1324 1750 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    209 -718 934 -551 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -718 0    1    1    0    0    12    0   "Arial For CAE"   `S_Param`
+40    7    0    0    0
+50    6    209 -926 530 -759 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -926 0    1    2    0    0    12    0   "Arial For CAE"   `SP1`
+40    8    0    0    0
+50    6    209 -1550 1255 -1383 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -1550 0    1    3    0    3    12    0   "Arial For CAE"   `Step=1.0 GHz`
+50    6    209 -1342 1353 -1175 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -1342 0    1    3    0    2    12    0   "Arial For CAE"   `Stop=10.0 GHz`
+50    6    209 -1134 1255 -967 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -1134 0    1    3    0    1    12    0   "Arial For CAE"   `Start=1.0 GHz`
+80    5    "SweepVar"    "StringAndReference"    0    0    ""freq""    1   0
+80    5    "UseSweepPlan"    "StdForm"    0    0    ""    1   0
+80    5    "SweepPlan"    "StdForm"    0    0    ""    1   0
+80    5    "Start"    "StdForm"    0    0    "1.0 GHz"    0   0
+80    5    "Stop"    "StdForm"    0    0    "10.0 GHz"    0   0
+80    5    "Step"    "StdForm"    0    0    "1.0 GHz"    0   0
+80    5    "Center"    "StdForm"    0    0    ""    1   0
+80    5    "Span"    "StdForm"    0    0    ""    1   0
+80    5    "Lin"    "StdForm"    0    0    ""    1   0
+80    5    "Dec"    "StdForm"    0    0    ""    1   0
+80    5    "Log"    "StdForm"    0    0    ""    1   0
+80    5    "Reverse"    "StdForm"    0    0    ""    1   0
+80    5    "Pt"    "StdForm"    0    0    ""    1   0
+80    5    "Sort"    "StdForm"    0    0    "LINEAR START STEP"    1   0
+80    3    "OutputPlan"    "list"    0    1    ""    1   0
+80    5    "OutputPlan"    "StdForm"    0    0    ""    1   0
+80    6    "UseEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "EquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "EquationName"    "list"    0    1    ""    1   0
+80    5    "EquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "CalcS"    "StdForm"    0    0    "yes"    1   0
+80    5    "CalcY"    "StdForm"    0    0    "no"    1   0
+80    5    "CalcZ"    "StdForm"    0    0    "no"    1   0
+80    5    "CalcGroupDelay"    "StdForm"    0    0    ""    1   0
+80    5    "GroupDelayAperture"    "StdForm"    0    0    "1e-4"    1   0
+80    6    "FreqConversion"    "No"    0    0    ""    1   0
+80    5    "FreqConversionPort"    "StdForm"    0    0    "1"    1   0
+80    5    "UseFiniteDiff"    "StdForm"    0    0    ""    1   0
+80    5    "StatusLevel"    "StdForm"    0    0    "2"    1   0
+80    6    "CalcNoise"    "No"    0    0    ""    1   0
+80    6    "SortNoise"    "NoiseSortOff"    0    0    ""    1   0
+80    5    "NoiseThresh"    "StdForm"    0    0    ""    1   0
+80    5    "BandwidthForNoise"    "StdForm"    0    0    "1.0 Hz"    1   0
+80    5    "Freq"    "StdForm"    0    0    ""    1   0
+80    6    "DevOpPtLevel"    "DeviceOpNone"    0    0    ""    1   0
+80    5    "NoiseInputPort"    "StdForm"    0    0    ""    1   0
+80    5    "NoiseOutputPort"    "StdForm"    0    0    ""    1   0
+80    5    "Other"    "OtherForm"    0    0    ""    1   0
+80    6    "UseSavedEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "SavedEquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "SavedEquationName"    "list"    0    1    ""    1   0
+80    5    "SavedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    3    "AttachedEquationName"    "list"    0    1    ""    1   0
+80    5    "AttachedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "EnforcePassivity"    "StdForm"    0    0    ""    1   0
+41    44175920    0    1073741824    "SNP1"    "S2P"    "SYM_S2P"    3000 -541 6124 875 1    0 "" 0
+    45638730    0    4    3000 625 0 1 1 0 0    0    105    0    0    1456400834    17  ""    3000 125 4000 875 1    3209 -541 6124 42 1    0 0 0 0 0 0
+40    6    0    0    0
+50    6    209 -750 530 -583 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -750 0    1    1    0    0    12    0   "Arial For CAE"   `S2P`
+40    7    0    0    0
+50    6    209 -958 655 -791 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -958 0    1    2    0    0    12    0   "Arial For CAE"   `SNP1`
+40    8    0    0    0
+50    6    209 -1166 3124 -999 1    0    0    0    0    0    0    0    0
+62    0    167    9    209 -1166 0    1    3    0    1    12    0   "Arial For CAE"   `File="KESSIS_AC_Stability_1123.s2p"`
+80    5    "File"    "dfiles"    0    0    ""KESSIS_AC_Stability_1123.s2p""    0   0
+80    6    "Type"    "Type1"    0    0    ""    1   0
+80    5    "Block"    "StringAndReference"    0    0    ""    1   0
+80    6    "InterpMode"    "Mode0"    0    0    ""    1   0
+80    6    "InterpDom"    "ID0"    0    0    ""    1   0
+80    6    "ExtrapMode"    "EMode2"    0    0    ""    1   0
+80    5    "Temp"    "StdForm"    0    0    "27.0"    1   0
+80    6    "CheckPassivity"    "y_n0"    0    0    ""    1   0
+80    5    "ImpNoncausalLength"    "StdForm"    0    0    ""    1   0
+80    5    "ImpMode"    "StdForm"    0    0    ""    1   0
+80    5    "ImpMaxFreq"    "StdForm"    0    0    ""    1   0
+80    5    "ImpDeltaFreq"    "StdForm"    0    0    ""    1   0
+80    5    "ImpMaxOrder"    "StdForm"    0    0    ""    1   0
+80    5    "ImpWindow"    "StdForm"    0    0    ""    1   0
+80    5    "ImpRelTol"    "StdForm"    0    0    ""    1   0
+80    5    "ImpAbsTol"    "StdForm"    0    0    ""    1   0
+80    5    "EnforcePassivity"    "Auto"    0    0    ""    1   0
+43    45817054    0    ""    45638818    20    ""   0
+43    45817040    0    ""    45638774    19    ""   0
+43    45817026    0    ""    45638730    18    ""   0
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    4 -4 1    0    0    "mm_layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21
